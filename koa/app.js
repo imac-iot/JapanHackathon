@@ -1,10 +1,10 @@
 var koa = require('koa');
 var Router = require('koa-router');
 var mqtt = require('mqtt');
-var mongodb = require('mongodb'),
-    assert = require('assert');
-var conMqtt = require('./connection/conMqtt.json');
-var conMongodb = require('./connection/conMongodb.json');
+var mongodb = require('mongodb');
+var assert = require('assert');
+var conMqtt = require('./connection/con-mqtt.json');
+var conMongodb = require('./connection/con-mongodb.json');
 
 
 

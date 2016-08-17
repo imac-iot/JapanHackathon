@@ -1,7 +1,7 @@
 var SerialPort = require('serialport');
 var mqtt = require('mqtt');
 var dateFormat = require('dateformat');
-var conMqtt = require('./conMqtt.json');
+var conMqtt = require('./con-mqtt.json');
 
 var port = new SerialPort.SerialPort('/dev/ttyS0',{
         baudRate : 57600,
