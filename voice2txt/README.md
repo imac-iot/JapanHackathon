@@ -1,14 +1,11 @@
-# Node.js Starter Overview
+# Voice to Text 
 
-The Node.js Starter demonstrates a simple, reusable Node.js web application based on the Express framework.
+Turn speech to text and translate it with Bluemix Platform.
+0001.flac is example audio file provided by IBM. 
+This app will translate the speech from English to Spainish.
 
-## Run the app locally
-
-1. [Install Node.js][]
-2. Download and extract the starter code from the Bluemix UI
-3. cd into the app directory
-4. Run `npm install` to install the app's dependencies
-5. Run `npm start` to start the app
-6. Access the running app in a browser at http://localhost:6001
-
-[Install Node.js]: https://nodejs.org/en/download/
+##TODO List
+1. Get the speech via live stream.
+2. Add Microphone as Audio source.
+3. Translate from Chinese instead.
+4. A complete API for user to call. 
