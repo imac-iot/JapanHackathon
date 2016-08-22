@@ -1,0 +1,27 @@
+{
+  "name": "voice2txt",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cfenv": "1.0.x",
+    "express": "4.13.x",
+    "koa": "^1.2.1",
+    "koa-route": "^2.4.2",
+    "koa-static": "^2.0.0",
+    "stream": "0.0.2",
+    "watson-developer-cloud": "^2.1.4",
+    "websocket": "^1.0.23",
+    "websockets-streaming-audio": "^1.0.35"
+  },
+  "repository": {},
+  "engines": {
+    "node": "4.x"
+  },
+  "description": "The Node.js Starter demonstrates a simple, reusable Node.js web application based on the Express framework.",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC"
+}
